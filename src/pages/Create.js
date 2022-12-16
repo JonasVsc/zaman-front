@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 
-=======
+
 import './Create.css';
->>>>>>> 8efee4c (cadastro concluido)
 import  React, { useState } from 'react';
 import axios from 'axios';
 
