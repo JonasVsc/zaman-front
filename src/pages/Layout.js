@@ -13,6 +13,8 @@ const Layout = () => {
         <Link className='link' to="/create">CREATE</Link>
 
         <Link className='link' to="/login">LOGIN</Link>
+
+        <Link className='link' to="/cadastro">CADASTRO</Link>
         </div>
 
       <Outlet />

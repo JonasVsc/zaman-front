@@ -1,0 +1,34 @@
+.Container {
+    margin-top: 50px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+img {
+    margin-bottom: 50px;
+    width: 11%;
+    height: auto;
+}
+.credenciaisCadastro {
+    width: 290px;
+    height: 30px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #EEEEEE;
+    margin-left: 200px;
+}
+.Cadastrar {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 300px;
+    padding: 2%;
+    background-color: #FDC167;
+    border-radius: 6px;
+    border-style: none;
+    font-size: 17px;
+}
