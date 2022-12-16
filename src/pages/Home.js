@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
+//estilizaçao
+import './Home.css'
+
 export default function Home() {
 
     const [APIData, setAPIData] = useState([]);
@@ -13,13 +16,15 @@ export default function Home() {
 
 
     return (
-        <div>
+        <div className='Container-cards'>
             {APIData.map((data) => {
                 return (
                     <div className='card'>
 
-                        <h1>{data.titulo}</h1>
-                        <p>{data.descricao}</p>
+                        <h1 className='card-title'>{data.titulo}</h1>
+                        <img className='card-img'></img>
+                        <p className='card-desc'>{data.descricao}</p>
+
 
                     </div>
                 )})}

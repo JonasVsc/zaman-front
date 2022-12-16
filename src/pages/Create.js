@@ -21,7 +21,7 @@ export default function Create() {
 
     return (<div className='Container'>
         <form>
-            <label>Titulo</label>
+            <label className='TItulo'>Titulo</label>
             <input placeholder='Titulo' onChange={(e) => setTitulo(e.target.value)} />
 
 
