@@ -1,5 +1,5 @@
 import "./Cadastro.css"
-import logo from './../icon.png'
+import logo from './../../icon.png'
 
 
 

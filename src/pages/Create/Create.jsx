@@ -20,13 +20,13 @@ export default function Create() {
 }
 
     return (<div className='Container'>
+        <h1></h1>
         <form>
-            <label className='TItulo'>Titulo</label>
-            <input placeholder='Titulo' onChange={(e) => setTitulo(e.target.value)} />
+            
+            <input placeholder='Adicione um titulo' onChange={(e) => setTitulo(e.target.value)} />
 
 
-            <label>Descricao</label>
-            <input placeholder='Descricao' onChange={(e) => setDescricao(e.target.value)} />
+            <input placeholder='Adicione uma descrição' onChange={(e) => setDescricao(e.target.value)} />
             
         </form>
         <button type="submit" onClick={postData}>Criar</button>
