@@ -14,7 +14,7 @@ export default function Create() {
 
     //Envia os dados do form
     const postData = () => {
-        axios.post('https://639bc41f64fcf9c11ca2a8c5.mockapi.io/postData', {
+        axios.post('https://639bc41f64fcf9c11ca2a8c5.mockapi.io/API_DIY', {
             titulo,
             descricao,
             imagem
@@ -29,7 +29,7 @@ export default function Create() {
 
             <input className='input-desc' placeholder='DESCRIÇAO' onChange={(e) => setDescricao(e.target.value)} />
 
-            <input  type='file' onChange={(e) => setImagem(e.target.value)} />
+            <input  placeholder='LINK IMAGEM' onChange={(e) => setImagem(e.target.value)} />
             
             </div>
         </form>

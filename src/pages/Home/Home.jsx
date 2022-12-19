@@ -8,7 +8,7 @@ export default function Home() {
 
     const [APIData, setAPIData] = useState([]);
     useEffect(() => {
-       axios.get('https://639bc41f64fcf9c11ca2a8c5.mockapi.io/postData')
+       axios.get('https://639bc41f64fcf9c11ca2a8c5.mockapi.io/API_DIY')
             .then((response) => {
                 setAPIData(response.data);
             })
