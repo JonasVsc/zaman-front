@@ -1,5 +1,5 @@
 import './Login.css'
-import logo from './../icon.png'
+import logo from './../../icon.png'
 
 
 
@@ -11,9 +11,9 @@ const Login = () => {
                 <label class="credenciais">Email:</label>
                     <form>
                         <input type="email" placeholder="Insira seu email"/>
-                    </form>
+                    
                 <label class="credenciais">Senha:</label>
-                    <form>
+                    
                         <input type="password" placeholder="Insira sua senha"/>
                     </form>
             </section>

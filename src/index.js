@@ -4,11 +4,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 
 //IMPORTANDO AS PAGINAS
-import Layout from './pages/Layout.js';
-import Login from './pages/Login.js';
-import Create from './pages/Create.js';
-import Home from './pages/Home';
-import Cadastro from './pages/Cadastro';
+import Layout from './pages/Layout/Layout.jsx';
+import Login from './pages/Login/Login.jsx';
+import Create from './pages/Create/Create.jsx';
+import Home from './pages/Home/Home.jsx';
+import Cadastro from './pages/Cadastro/Cadastro.jsx';
 
 
 export default function App() {
