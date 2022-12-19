@@ -6,7 +6,6 @@ const Layout = () => {
     return (
         <>
         <div className='Header'>
-        <input type="text"></input>
 
         <Link className='link' to="/">HOME</Link>
         

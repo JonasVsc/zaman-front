@@ -22,7 +22,7 @@ export default function Home() {
                     <div className='card'>
 
                         <h1 className='card-title'>{data.titulo}</h1>
-                        <img className='card-img'></img>
+                        <img className='card-img' src={data.imagem}></img>
                         <p className='card-desc'>{data.descricao}</p>
 
 
